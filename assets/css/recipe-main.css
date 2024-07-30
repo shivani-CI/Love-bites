@@ -59,6 +59,13 @@ input[type=checkbox]{
    display:none;
 }
 
+#recipe-course{
+    display: flex;
+    justify-content: center;
+    color: #ab3326;
+    font-size: 40px;
+}
+
 .recipe{
     max-width: 80%;
     margin: 0 auto;
