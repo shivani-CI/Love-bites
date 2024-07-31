@@ -21,6 +21,7 @@
     justify-content: center;
     color: #ab3326;
     font-size: 40px;
+    padding: 20px 0;
 }
 
 .card-wrapper{
@@ -146,11 +147,11 @@ input[type=checkbox]{
 
 footer{
     background-color: #ab3326;
-    padding: 10px 20px;
+    padding: 20px;
+    margin-top: 0;
     text-align: center;
     color: #ffffff;
     font-family: 'Georgia', sans-serif;
-    margin-top: 20px;
 }
 
 .footer-content p {
