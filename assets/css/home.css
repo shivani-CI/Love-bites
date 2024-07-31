@@ -131,8 +131,8 @@ body {
     margin-bottom: 20px;
     border-radius: 50%;
     flex-direction: column;
-    max-width: 500px;
-    max-height: 500px;
+    max-width: 400px;
+    max-height: 400px;
 }
 
 .benefits-image {
@@ -147,6 +147,22 @@ body {
     padding-top: 35px;
     padding-bottom: 30px;
     background-color: #ebe7e1;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #c69c6d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1em;
+    margin-top: 20px;
+}
+.section {
+    padding: 50px 20px;
+    text-align: center;
 }
 
 /* footer */
@@ -180,7 +196,7 @@ footer{
 
 .icon {
     width: 30px;
-    height: 30px;    
+    height: 30px;
     transition: opacity 0.3s ease;
 }
 
