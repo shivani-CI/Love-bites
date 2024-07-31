@@ -131,3 +131,21 @@ Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` f
 Happy coding!
 
 # Shivani's test commit
+Wireframe for Home Page:
+![image](https://github.com/user-attachments/assets/f3b6ef72-958a-40ce-8273-bde81e140fba)
+![image](https://github.com/user-attachments/assets/da6cf0e2-d751-41a5-8566-bafe019135c0)
+![image](https://github.com/user-attachments/assets/57d6c1e9-6b12-4df0-8cbe-9190504706d8)
+
+Wireframe for Recipe Sections:
+![image](https://github.com/user-attachments/assets/139f011b-8885-47c0-9ccf-a2899b360a15)
+![image](https://github.com/user-attachments/assets/756e23c9-351b-4946-83d7-d08bd5709609)
+![image](https://github.com/user-attachments/assets/367a8f1e-973c-4d81-9e11-ba10e925db79)
+![image](https://github.com/user-attachments/assets/ac46580f-f74a-406c-a6dc-38052c4a9c9e)
+![image](https://github.com/user-attachments/assets/cf3edfad-399f-4c41-b9d8-272799362d41)
+![image](https://github.com/user-attachments/assets/1bf0e10e-5f65-4b1f-8c52-3ce48a692fb4)
+
+
+
+
+
+
