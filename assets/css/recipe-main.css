@@ -1,0 +1,183 @@
+/* ----------------Recipe Card */
+.recipe{
+    margin-top: 20px;
+    padding:20px ;
+    background-color: #e2e2e0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 25px 25px 0 0;
+}
+
+.course-title{
+    display: flex;
+    justify-content: center;
+    color: #ab3326;
+    font-size: 40px;
+    font-weight: bolder;
+    padding: 20px 0;
+}
+
+.recipe-container{
+    display: flex;
+    justify-content: center;
+    color: #ab3326;
+    font-size: 40px;
+}
+
+.card-wrapper{
+    column-gap: 15px;
+}
+
+.card-img-top{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 25px 25px 0 0;
+}
+
+.recipe-card{
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+.recipe-card:hover{
+    transform: translateY(-5px);
+    transition: 0.5s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-title{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    color: #ab3326;
+    font-size: 22px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.card-body p{
+    padding: 0;
+    margin: 0;
+    row-gap: 2px;
+}
+
+.colored-star{
+    color: #ffd27d;
+}
+
+/* main{
+    padding: 20px;
+}
+
+input[type=checkbox]{
+   display:none;
+}
+
+#recipe-course{
+    display: flex;
+    justify-content: center;
+    color: #ab3326;
+    font-size: 40px;
+}
+
+.recipe{
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 25px 25px 0 0;
+}
+.recipe-card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.recipe-card{
+    position: relative;
+    width: 30%;
+    background-color: #fdf3f3;
+    border-radius: 25px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-card:hover{
+    transform: translateY(-5px);
+    transition: 0.5s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-header{
+    position: relative;
+}
+
+.card-img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 25px 25px 0 0;
+}
+
+.card-info{
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+#food-name{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    color: #ab3326;
+    font-size: 22px;
+}
+
+.card-info p{
+    display: flex;
+    grid: 2(1ltr);
+    font-family: Georgia, 'Times New Roman', Times, sans-serif;
+    margin: 5px 0;
+    color: #3f3f3f;
+    font-size: 16px;
+} */
+
+/* footer */
+
+footer{
+    background-color: #ab3326;
+    padding: 20px;
+    margin-top: 0;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Georgia', sans-serif;
+}
+
+.footer-content p {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.social-icons a {
+    font-size: 30px;
+    margin: 0 10px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    transition: opacity 0.3s ease;
+}
+
+.icon:hover {
+    color: #ffffff; 
+    transition: 0.5ms;
+}
