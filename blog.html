@@ -9,63 +9,101 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css">
     <link rel="stylesheet" href="assets/css/blog.css" type="text/css">
     <title>Love Bites</title>
+    <style>
+        .footer-content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            flex-wrap: wrap;
+            height: auto; /* Adjust height as needed */
+        }
+        .footer-section {
+            flex: 1 1 33%; /* Ensure sections are of equal width and wrap if necessary */
+            padding: 10px;
+        }
+        .footer-content h4 {
+            margin-bottom: 10px;
+        }
+        .social-links {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .social-links li {
+            display: inline;
+            margin: 0 10px;
+        }
+        .follow-us {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .follow-us h4 {
+            margin-right: 10px;
+        }
+    </style>
 </head>
 <body>
     <header class="lover">
-    <h1 class="love-bites">Love Bites</h1>
-
-</header>
-<br>    
-<h3 class="about-me">Blog</h3>
-<br>
+        <h1 class="love-bites">Love Bites</h1>
+    </header>
+    <br>    
+    <h1 class="about-me">Blog</h1>
+    <br>
     <footer>
-        <div class="col-sm-4">
-            <div id ="footer-details" class="row">
-                <h3 class="uppercase general-sub">Contact Us:</h3>
-                <div class="col-sm-4">
-                  <h5 class="uppercase general-sub">Name:</h5>
-                  <p class="inline-block">
-                    Full Stack Web Developer. Skilled in everything from HTML to Heroku. The capacity for structural and design thinking.
-                  </p>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Contact Us:</h4>
+                <div class="name-input">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name">
                 </div>
-                <div class="col-sm-4">
-                    <h5 class="uppercase general-sub">Email Address:</h5>
-                    <p class="inline-block"></p>
+                <div class="email-input">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email">
                 </div>
-                <div class="col-sm-4">
-                    <h5 class="uppercase general-sub">Contact:</h5>
-                    <p class="inline-block"></p>
-                </div>
-                <div class="col-sm-4">
-                    <h5 class="uppercase general-sub">Based in:</h5>
-                    <p class="inline-block"></p>
-                </div>
-            <ul class="list-inline social-links">
-                <li class="list-inline-item">
-                    <a target="_blank" href="#">
-                        <i class="fa fa-facebook" aria-hidden="true"></i>
-                        <span class="sr-only">Facebook</span>
-                    </a>
-                </li>
-                <li class="list-inline-item">
-                    <a target="_blank" href="#">
-                        <i class="fa fa-twitter" aria-hidden="true"></i>
-                        <span class="sr-only">Twitter</span>
-                    </a>
-                </li>
-                <li class="list-inline-item">
-                    <a target="_blank" href="#">
-                        <i class="fa fa-pinterest" aria-hidden="true"></i>
-                        <span class="sr-only">Pinterest</span>
-                    </a>
-                </li>
-                <li class="list-inline-item">
-                    <a target="_blank" href="#">
-                        <i class="fa fa-instagram" aria-hidden="true"></i>
-                        <span class="sr-only">Instagram</span>
-                    </a>
-                </li>
-            </ul>
+                <button type="submit">Submit</button>
+            </div>
+            <div class="footer-section">
+                <h4>Contact:</h4>
+                <span>example@email.com</span>
+           <br><br>
+                <h4>Based In:</h4>
+                <p>United Kingdom, England</p>
+            </div>
+            <div class="footer-section follow-us">
+                <h4>Follow Us:</h4>
+                <ul class="social-links">
+                    <li>
+                        <a target="_blank" href="#">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                            <span class="sr-only">Facebook</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="#">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                            <span class="sr-only">Twitter</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="#">
+                            <i class="fa fa-youtube" aria-hidden="true"></i>
+                            <span class="sr-only">YouTube</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="#">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                            <span class="sr-only">Instagram</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </footer>
 </body>
