@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css?family=Georgia&serif:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
 body {
     font-family: 'Georgia', serif;
     margin: 0;
@@ -6,6 +9,7 @@ body {
     color: #333;
 }
 
+/* Hero Image */
 .hero {
     background: url('../images/hero.jpg') no-repeat center center/cover;
     height: 100vh;
@@ -17,14 +21,6 @@ body {
     color: #eeeed7;
     position: relative;
 }
-/* 
-.overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;    
-} */
 
 .hero-content {
     position: relative;
@@ -53,7 +49,7 @@ body {
     margin-top: 20px;
 }
 
-/*-------------------------- Navbar*/
+/* Navbar */
 .ui-menu-color-home {
     background-color: #c69c65;
 }
@@ -87,12 +83,6 @@ body {
     margin: 0;
 }
 
-/*.navbar {
-    height: 120px;
-    text-align: center;
-    padding: 0;
-}
-*/
 .menuitem a {
     width: 100%;
     text-decoration: none;
@@ -119,9 +109,82 @@ body {
     letter-spacing: 2px;
 } 
 
-/*---------------------------------Hover.css */
+/* Hover.css */
 
 .hvr-sweep-to-bottom:before {
     background: rgba(0, 0, 0, 0.2);
     height: 120px;
 } 
+
+.our-story,
+.featured-recipe {
+    text-align: center;
+    padding-top: 150px;
+    padding-right: 30px;
+    padding-left: 30px;   
+}
+
+.circle-cover-bg {
+    background: url('../images/recipe3.jpeg') no-repeat top center / cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    flex-direction: column;
+    max-width: 500px;
+    max-height: 500px;
+}
+
+.benefits-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.stay-connected {
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color: #ebe7e1;
+}
+
+/* footer */
+
+footer{
+    background-color: #ab3326;
+    padding: 20px;
+    margin-top: 0;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Georgia', sans-serif;
+}
+
+.footer-content p {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.social-icons a {
+    font-size: 30px;
+    margin: 0 10px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;    
+    transition: opacity 0.3s ease;
+}
+
+.icon:hover {
+    color: #ffffff; 
+    transition: 0.5ms;
+}
