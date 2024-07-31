@@ -1,52 +1,53 @@
-body{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+/* Reset some default styles */
+body, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 /* Navbar Container */
 .navbar {
-    background-color: #ab3326;
-    padding: 20px 0;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #333; /* Dark background */
+    padding: 15px 0; /* Padding around the navbar */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    position: relative; /* Relative positioning for the navbar */
 }
 
 /* Container for Navbar Content */
 .container {
-    max-width: 1140px; 
-    margin: 0 auto; 
-    padding: 0 15px; 
-    display: flex; 
-    align-items: center; 
-    justify-content: space-between; 
+    max-width: 1140px; /* Standard container width */
+    margin: 0 auto; /* Center the container */
+    padding: 0 15px; /* Padding for container */
+    display: flex; /* Flexbox for alignment */
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Space between brand and links */
 }
 
 /* Brand Logo */
-.navbar-logo {
-    color: white;
-    font-weight: bold; 
-    text-decoration: none; 
-    font-size: 2rem; 
+.navbar-brand {
+    color: white; /* White color for brand */
+    font-weight: bold; /* Bold font for brand */
+    text-decoration: none; /* Remove underline */
+    font-size: 1.5rem; /* Font size for brand */
 }
 
 /* Navigation Links */
 .navbar-nav {
-    list-style: none; 
-    display: flex;
-    flex-direction:row ;
-    margin: 0; 
-    padding: 0; 
+    display: flex; /* Flexbox for navigation */
+    flex-direction: row; /* Horizontal row for large screens */
 }
 
 .nav-item {
-    margin: 0 15px;
+    margin: 0 15px; /* Space between nav items */
 }
 
 .nav-link {
-    color: white; /* White font color for links */
+    color: white; /* White color for links */
     font-weight: bold; /* Bold font for links */
     text-decoration: none; /* Remove underline */
     font-size: 1rem; /* Font size for links */
     padding: 8px 12px; /* Padding for links */
-    border-radius: 5px; /* Rounded corners for links */
+    border-radius: 5px; /* Rounded corners */
     transition: background-color 0.3s ease; /* Smooth transition */
 }
 
@@ -56,20 +57,48 @@ body{
     color: #f0f0f0; /* Lighter font color on hover */
 }
 
+/* Navbar Toggle Button */
+.navbar-toggler {
+    display: none; /* Hidden by default on large screens */
+    background: none; /* No background */
+    border: none; /* No border */
+    color: white; /* White color for toggler */
+    font-size: 1.5rem; /* Font size for toggler */
+    cursor: pointer; /* Pointer cursor */
+    outline: none; /* No outline */
+}
+
 
 /* Responsive Design for Small Screens */
 @media (max-width: 768px) {
-    .container {
-        flex-direction: column; 
-    }
+.navbar-nav {
+    flex-direction: column; /* Stack nav links vertically */
+    display: none; /* Hide links initially */
+    width: 100%; /* Full width for nav */
+    text-align: center; /* Center text */
+    background-color: #333; /* Same background as navbar */
+    position: absolute; /* Position below navbar */
+    top: 100%; /* Start just below the navbar */
+    left: 0; /* Align left */
+    right: 0; /* Align right */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow for nav */
+    z-index: 10; /* Higher stacking order */
+}
 
-    .navbar-nav {
-        flex-direction: column; 
-        width: 100%; 
-        text-align: center; 
-    }
+.nav-item {
+    margin: 10px 0; /* Vertical margin for nav items */
+}
 
-    .nav-item {
-        margin: 10px 0; 
-    }
+.navbar-toggler {
+    display: block; /* Display toggler on small screens */
+}
+
+/* Checkbox Hack for Toggle Menu */
+#nav-toggle:checked + .navbar-nav {
+    display: flex; /* Show the nav links when checked */
+}
+
+#nav-toggle {
+    display: none; /* Hide the checkbox */
+}
 }

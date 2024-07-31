@@ -1,46 +1,224 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Recipe Page</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoveBite Recipes</title>
+
+    <!-- BootStrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
     <!-- Google Font (Georgia)-->
     <link href="https://fonts.googleapis.com/css2?family=Georgia&family=Times+New+Roman&display=swap" rel="stylesheet">
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- Hover CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
-    <!-- Style Sheet Link -->
-     <link rel="stylesheet" href="../../assets/css/recipePage.css">
-  </head>
-  <!-- Headder -->
-   <header>
-    <nav class="navbar">
-        <div class="container">
-            <a class="navbar-logo" href="#">LoveBite</a>
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Recipes</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Blog</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact Us</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    
-   </header>
-  <body>
 
-  </body> 
-  <!-- footer -->
-  <footer> 
-  </footer>
+    <link rel="stylesheet" href="assets/css/recipe-main.css">
+    <!-- Font Awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar navbar-expand-lg py-4 py-lg-0 shadow">
+            <div class="container px-4">
+                <a class="navbar-brand" href="#">LoveBite</a>
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#top-navbar" aria-controls="navbarText" aria-expanded="false" aria-label="Top-navbar">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="top-navbar" aria-labelledby="top-navbarLabel">
+                <!-- NavBar Content -->
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#top-navbar" aria-controls="navbarText" aria-expanded="false" aria-label="Top-navbar">
+                    <div class="d-flex justify-content-between p-3">
+                        <a class="navbar-brand" href="#">LoveBite</a>
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <div class="navbar-nav ms-lg-auto p-4 p-lg-0">
+                    <li class="nav-item px-3 p-lg-0 py-1 p-lg-4">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item px-3 p-lg-0 py-1 p-lg-4">
+                        <a class="nav-link" href="#">Recipes</a>
+                    </li>
+                    <li class="nav-item px-3 p-lg-0 py-1 p-lg-4">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item px-3 p-lg-0 py-1 p-lg-4">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Main Content -->
+    <main>
+        <div class="container my-5">
+            <div class="row">
+              <!-- Sidebar Section -->
+              <div class="col-lg-4 mb-4">
+                <div class="accordion" id="recipeAccordion">
+                  <!-- Starters -->
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                        Starters
+                      </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#recipeAccordion">
+                      <div class="accordion-body">
+                        <ul class="list-unstyled">
+                          <li><a href="#" class="nav-link hvr-underline-from-left">Food 1</a></li>
+                          <li><a href="#" class="nav-link hvr-underline-from-left">Food 2</a></li>
+                          <li><a href="#" class="nav-link hvr-underline-from-left">Food 3</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Mains -->
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Mains
+                      </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#recipeAccordion">
+                      <div class="accordion-body">
+                        <ul class="list-unstyled">
+                          <li><a href="#" class="nav-link hvr-underline-from-left">Food 1</a></li>
+                          <li><a href="#" class="nav-link hvr-underline-from-left">Food 2</a></li>
+                          <li><a href="#" class="nav-link hvr-underline-from-left">Food 3</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Desserts -->
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Desserts
+                      </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#recipeAccordion">
+                      <div class="accordion-body">
+                        <ul class="list-unstyled">
+                          <li><a href="#" class="nav-link hvr-underline-from-left">Food 1</a></li>
+                          <li><a href="#" class="nav-link hvr-underline-from-left">Food 2</a></li>
+                          <li><a href="#" class="nav-link hvr-underline-from-left">Food 3</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+              <!-- Recipe Details Section -->
+              <div class="col-lg-8">
+                <div class="shadow-box p-4 mb-4 rounded">
+                  <h2 class="mb-3">Recipe Name</h2>
+                  <img src="https://via.placeholder.com/500x300" class="img-fluid mb-4" alt="Recipe Image">
+                  <div class="d-flex justify-content-between mb-3 rating-time">
+                    <div class="d-flex flex-column align-items-center">
+                      <strong>Rating:</strong>
+                      <span class="colored-star">⭐⭐⭐⭐☆</span>
+                    </div>
+                    <div class="d-flex flex-column align-items-center">
+                      <strong>Prep Time:</strong>
+                      <span>15 mins</span>
+                    </div>
+                    <div class="d-flex flex-column align-items-center">
+                      <strong>Cook Time:</strong>
+                      <span>30 mins</span>
+                    </div>
+                  </div>
+                  <div class="nutrition-info mb-4 p-3 rounded">
+                    <h3>Nutrition Facts</h3>
+                    <div class="nutrition-box">
+                      <div class="nutrition-item">
+                        <span class="nutrition-label">Calories</span>
+                        <span class="nutrition-value">150 kcal</span>
+                      </div>
+                      <div class="nutrition-item">
+                        <span class="nutrition-label">Fat</span>
+                        <span class="nutrition-value">9g</span>
+                      </div>
+                      <div class="nutrition-item">
+                        <span class="nutrition-label">Saturates</span>
+                        <span class="nutrition-value">5g</span>
+                      </div>
+                      <div class="nutrition-item">
+                        <span class="nutrition-label">Carbs</span>
+                        <span class="nutrition-value">15g</span>
+                      </div>
+                      <div class="nutrition-item">
+                        <span class="nutrition-label">Sugars</span>
+                        <span class="nutrition-value">12g</span>
+                      </div>
+                      <div class="nutrition-item">
+                        <span class="nutrition-label">Fibre</span>
+                        <span class="nutrition-value">1g</span>
+                      </div>
+                      <div class="nutrition-item">
+                        <span class="nutrition-label">Protein</span>
+                        <span class="nutrition-value">2g</span>
+                      </div>
+                      <div class="nutrition-item">
+                        <span class="nutrition-label">Low in Salt</span>
+                        <span class="nutrition-value">0.1g</span>
+                      </div>
+                    </div>
+                  </div>
+      
+                  <!-- Ingredients and Methods Row -->
+                  <div class="row">
+                    <!-- Ingredients Section -->
+                    <div class="col-md-6 ingredients-section p-3 mb-4 rounded">
+                      <h3>Ingredients</h3>
+                      <ul>
+                        <li>Ingredient 1</li>
+                        <li>Ingredient 2</li>
+                        <li>Ingredient 3</li>
+                        <li>Ingredient 4</li>
+                        <li>Ingredient 5</li>
+                      </ul>
+                    </div>
+                    <!-- Methods Section -->
+                    <div class="col-md-6 methods-section p-3 mb-4 rounded">
+                      <h3>Methods</h3>
+                      <ol>
+                        <li>Preheat the oven to 350°F (175°C).</li>
+                        <li>Mix the ingredients together in a large bowl.</li>
+                        <li>Pour the mixture into a baking dish.</li>
+                        <li>Bake for 30 minutes or until golden brown.</li>
+                        <li>Serve and enjoy!</li>
+                      </ol>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>Follow us on social media:</p>
+            <div class="social-icons">
+                <a href="https://twitter.com">
+                    <i class="fa-brands fa-x-twitter icon"></i>
+                </a>
+                <a href="https://facebook.com">
+                    <i class="fa-brands fa-facebook icon"></i>
+                </a>
+                <a href="https://instagram.com">
+                    <i class="fa-brands fa-instagram icon"></i>
+                </a>
+                <a href="https://youtube.com">
+                    <i class="fa-brands fa-youtube icon"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
 </html>
