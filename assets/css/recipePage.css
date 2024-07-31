@@ -55,3 +55,21 @@ body{
     background-color: #555; /* Darker background on hover */
     color: #f0f0f0; /* Lighter font color on hover */
 }
+
+
+/* Responsive Design for Small Screens */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; 
+    }
+
+    .navbar-nav {
+        flex-direction: column; 
+        width: 100%; 
+        text-align: center; 
+    }
+
+    .nav-item {
+        margin: 10px 0; 
+    }
+}
