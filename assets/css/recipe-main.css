@@ -1,62 +1,19 @@
-/* Global Styles
-body {
-    margin: 0;
-    font-family: 'Georgia', sans-serif;
-    line-height: 1.6;
-    color: #3f3f3f;
-    background-color: #fdf3f3;
-} */
-
-/* Header and Navigation */
-/* header {
-    background-color: #ab3326;
-    padding: 10px 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.logo h1 {
-    color: #ffffff;
-    font-size: 28px;
-    font-family: 'Courier New', sans-serif;
-    margin: 0;
-    letter-spacing: 2px;
-}
-
-.nav-links {
-    list-style: none;
-    display: flex;
-    margin: 0;
-}
-
-.nav-links li {
-    margin: 0 15px;
-    position: relative;
-}
-
-.nav-links a {
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 18px;
-    transition: color 0.3s ease;
-}
-
-.nav-links a:hover {
-    color: #f0c0c0;
-} */
-
 /* ----------------Recipe Card */
 .recipe{
     margin-top: 20px;
     padding:20px ;
-    background-color: #FAF9F6;
+    background-color: #e2e2e0;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     border-radius: 25px 25px 0 0;
+}
+
+.course-title{
+    display: flex;
+    justify-content: center;
+    color: #ab3326;
+    font-size: 40px;
+    font-weight: bolder;
+    padding: 20px 0;
 }
 
 .recipe-container{
@@ -184,7 +141,6 @@ input[type=checkbox]{
     color: #3f3f3f;
     font-size: 16px;
 } */
-
 
 /* footer */
 
