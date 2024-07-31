@@ -1,104 +1,68 @@
-/* Reset some default styles */
-body, ul, li {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+/* General Body Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
 }
 
-/* Navbar Container */
-.navbar {
-    background-color: #333; /* Dark background */
-    padding: 15px 0; /* Padding around the navbar */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-    position: relative; /* Relative positioning for the navbar */
+/* Nutrition Facts Section */
+.nutrition-facts {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Container for Navbar Content */
-.container {
-    max-width: 1140px; /* Standard container width */
-    margin: 0 auto; /* Center the container */
-    padding: 0 15px; /* Padding for container */
-    display: flex; /* Flexbox for alignment */
-    align-items: center; /* Center items vertically */
-    justify-content: space-between; /* Space between brand and links */
+/* Nutrition Box Styling */
+.nutrition-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); /* Flexible grid layout */
+    gap: 10px; /* Space between each item */
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
-/* Brand Logo */
-.navbar-brand {
-    color: white; /* White color for brand */
-    font-weight: bold; /* Bold font for brand */
-    text-decoration: none; /* Remove underline */
-    font-size: 1.5rem; /* Font size for brand */
-}
-
-/* Navigation Links */
-.navbar-nav {
-    display: flex; /* Flexbox for navigation */
-    flex-direction: row; /* Horizontal row for large screens */
-}
-
-.nav-item {
-    margin: 0 15px; /* Space between nav items */
-}
-
-.nav-link {
-    color: white; /* White color for links */
-    font-weight: bold; /* Bold font for links */
-    text-decoration: none; /* Remove underline */
-    font-size: 1rem; /* Font size for links */
-    padding: 8px 12px; /* Padding for links */
-    border-radius: 5px; /* Rounded corners */
-    transition: background-color 0.3s ease; /* Smooth transition */
-}
-
-/* Hover Effect for Navigation Links */
-.nav-link:hover {
-    background-color: #555; /* Darker background on hover */
-    color: #f0f0f0; /* Lighter font color on hover */
-}
-
-/* Navbar Toggle Button */
-.navbar-toggler {
-    display: none; /* Hidden by default on large screens */
-    background: none; /* No background */
-    border: none; /* No border */
-    color: white; /* White color for toggler */
-    font-size: 1.5rem; /* Font size for toggler */
-    cursor: pointer; /* Pointer cursor */
-    outline: none; /* No outline */
+/* Nutrition Item Styling */
+.nutrition-item {
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.3s;
+    padding: 10px;
+    text-align: center;
 }
 
 
-/* Responsive Design for Small Screens */
-@media (max-width: 768px) {
-.navbar-nav {
-    flex-direction: column; /* Stack nav links vertically */
-    display: none; /* Hide links initially */
-    width: 100%; /* Full width for nav */
-    text-align: center; /* Center text */
-    background-color: #333; /* Same background as navbar */
-    position: absolute; /* Position below navbar */
-    top: 100%; /* Start just below the navbar */
-    left: 0; /* Align left */
-    right: 0; /* Align right */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow for nav */
-    z-index: 10; /* Higher stacking order */
+/* Label Styling */
+.nutrition-label {
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 3px;
+    font-size: 1em;
 }
 
-.nav-item {
-    margin: 10px 0; /* Vertical margin for nav items */
+/* Value Styling */
+.nutrition-value {
+    color: #ff6f61;
+    font-weight: bold;
+    font-size: 1em;
 }
 
-.navbar-toggler {
-    display: block; /* Display toggler on small screens */
-}
+/* Responsive Design */
+@media (max-width: 576px) {
+    .nutrition-item {
+        height: 80px; /* Increase height for smaller screens */
+        padding: 15px;
+    }
 
-/* Checkbox Hack for Toggle Menu */
-#nav-toggle:checked + .navbar-nav {
-    display: flex; /* Show the nav links when checked */
-}
-
-#nav-toggle {
-    display: none; /* Hide the checkbox */
-}
+    .nutrition-box{
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
