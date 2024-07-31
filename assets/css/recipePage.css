@@ -1,3 +1,7 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 /* Navbar Container */
 .navbar {
     background-color: #ab3326;
@@ -27,10 +31,27 @@
 .navbar-nav {
     list-style: none; 
     display: flex;
+    flex-direction:row ;
     margin: 0; 
     padding: 0; 
 }
 
 .nav-item {
     margin: 0 15px;
+}
+
+.nav-link {
+    color: white; /* White font color for links */
+    font-weight: bold; /* Bold font for links */
+    text-decoration: none; /* Remove underline */
+    font-size: 1rem; /* Font size for links */
+    padding: 8px 12px; /* Padding for links */
+    border-radius: 5px; /* Rounded corners for links */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+/* Hover Effect for Navigation Links */
+.nav-link:hover {
+    background-color: #555; /* Darker background on hover */
+    color: #f0f0f0; /* Lighter font color on hover */
 }
