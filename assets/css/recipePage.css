@@ -1,0 +1,33 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #000000;
+}
+
+#header{
+    background-color: #ab3326;
+    padding: 15px;
+}
+
+#header .logo{
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: bold;
+}
+
+.nav-menu > ul{
+    display: flex;
+}
+
+.nav-menu > ul > li{
+    position: relative;
+    white-space: nowrap;
+    padding: 10px 0 10px 22px;
+}
+
+.nav-menu a{
+    display: block;
+    position: relative;
+    color: rgb(red, green, blue);
+}
