@@ -13,6 +13,8 @@ Love Bites is a romantic food website designed to celebrate the elegance and tim
 
 
 
+
+
 ### Recipe page
 
 ![image](https://github.com/user-attachments/assets/139f011b-8885-47c0-9ccf-a2899b360a15)
@@ -21,8 +23,6 @@ Love Bites is a romantic food website designed to celebrate the elegance and tim
 ![image](https://github.com/user-attachments/assets/ac46580f-f74a-406c-a6dc-38052c4a9c9e)
 ![image](https://github.com/user-attachments/assets/cf3edfad-399f-4c41-b9d8-272799362d41)
 ![image](https://github.com/user-attachments/assets/1bf0e10e-5f65-4b1f-8c52-3ce48a692fb4)
-
-
 
 
 ## Table of Contents
@@ -37,10 +37,10 @@ images, text)
 - Future features 
 
   
-
 ## Project Overview
 
 At Love Bites, we celebrate the elegance and timeless beauty of romantic dining. Our mission is to bring you the most enchanting recipes and date night ideas inspired by everlasting love. 
+
 
 ## Features
 
@@ -50,6 +50,8 @@ At Love Bites, we celebrate the elegance and timeless beauty of romantic dining.
 - **Blog**: Inspiring ideas, comments and information on recipes.
 - **Contact Us**: Form for users to contact us.
 - **Newsletter Signup**: Form for users to subscribe to updates.
+
+
 
 ## UX/UI
 
@@ -76,7 +78,7 @@ At Love Bites, we celebrate the elegance and timeless beauty of romantic dining.
 
    - Feature section
 
-   !![image](https://github.com/user-attachments/assets/53a1934a-0d2b-4ac9-b270-003a95e0af69)
+    ![image](https://github.com/user-attachments/assets/53a1934a-0d2b-4ac9-b270-003a95e0af69)
 
 
 
@@ -93,7 +95,7 @@ At Love Bites, we celebrate the elegance and timeless beauty of romantic dining.
 
    - Footer 
 
-    ![image](https://github.com/user-attachments/assets/4551e721-9069-4b02-a040-84b263fa7e12)
+    ![image](https://github.com/user-attachments/assets/6a65d9d2-de41-4ea4-86f3-9bba8ce73a56)
 
 
 
@@ -115,6 +117,7 @@ At Love Bites, we celebrate the elegance and timeless beauty of romantic dining.
 
 
 
+
      - Dessert
 
       ![image](https://github.com/user-attachments/assets/4a35df95-2021-453a-a87b-db11a9272c19)
@@ -123,28 +126,39 @@ At Love Bites, we celebrate the elegance and timeless beauty of romantic dining.
 
      
 
-4. **Date Night Ideas Page (date-ideas.html)**
+3. **Date Night Ideas Page (date-ideas.html)**
    - Elegant Dinner
    - Moonlit Stroll
    - Chateau Visit
 
-5. **Testimonials Page (testimonials.html)**
-   - Jane & John's Story
-   - Emily & Michael's Story
-   - Lisa & Mark's Story
-
-6. **Newsletter Page (newsletter.html)**
-   - Newsletter subscription form
-
-7. **Individual Recipe Page (recipe1.html, recipe2.html, etc.)**
-   - Recipe title
-   - Ingredients
-   - Instructions
-
-Wireframe for Home Page:
 
 
-Wireframe for Recipe Sections:
+
+
+
+## Responsive Design
+
+  ![image](https://github.com/user-attachments/assets/477e78da-589c-40fb-9190-f55ebb07fc28)
+
+
+
+## Testing
+
+### Home page HTML 
+
+  ![image](https://github.com/user-attachments/assets/4e327af7-2a0d-474f-b1b1-34fd713ce8e0)
+
+
+
+### Home page CSS
+
+  ![image](https://github.com/user-attachments/assets/a4fb89f0-e0cc-4786-ab06-6e08b0fbabcf)
+
+
+
+## Deployment
+
+https://shivani-ci.github.io/Love-bites/home.html
 
 
 
