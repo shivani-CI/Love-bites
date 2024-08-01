@@ -1,19 +1,48 @@
 /* General Body Styling */
-header{
+header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #ab3326;
 }
 
 .navbar-brand{
-    color: #ffffff;
-    font-size: 2rem;
-    font-weight: bold;  
-}
-
-.nav-link{
-    color: #ffffff;
-    font-size: 0.9rem;
+    color: #fff;
+    font-size: 2rem !important;
     font-weight: bold;
 }
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.nav-item {
+    margin-left: 4rem;
+    height: 100%;
+}
+
+.nav-link {
+    display: block; /* Make links fill the nav item container */
+    padding: 0.5rem 1rem; /* Add padding for better spacing */
+    font-size: 1rem;
+    transition: color 0.3s, background-color 0.3s;
+    border-radius: 5px;
+    height: 100%;
+    color: #ffffff;
+}
+
+
+nav .navbar-nav li a{
+    color: #ffffff !important;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;    
+    font-size: 1rem;
+}
+
+.nav-link:hover {
+    color: #fff;
+    background-color: #c69c65;
+}
+
+
 
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -45,6 +74,7 @@ body {
     color:#ab3326;
     font-size: 2rem;
     font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #vertical-recipe-img {
@@ -130,6 +160,14 @@ body {
     .nutrition-box{
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .navbar-brand {
+        font-size: 1.25rem;
+    }
+    .nav-link {
+        font-size: 0.875rem;
+    }
+
 }
 
 /* footer */
