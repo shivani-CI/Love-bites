@@ -109,3 +109,43 @@ body {
         grid-template-columns: repeat(2, 1fr);
     }
 }
+
+/* footer */
+
+footer{
+    background-color: #ab3326;
+    padding: 20px;
+    margin-top: 0;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Georgia', sans-serif;
+}
+
+.footer-content p {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.social-icons a {
+    font-size: 30px;
+    margin: 0 10px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    transition: opacity 0.3s ease;
+}
+
+.icon:hover {
+    color: #ffffff; 
+    transition: 0.5ms;
+}
