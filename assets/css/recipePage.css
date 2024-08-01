@@ -1,7 +1,25 @@
 /* General Body Styling */
+header{
+    background-color: #ab3326;
+}
+
+.navbar-brand{
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: bold;  
+}
+
+.nav-link{
+    color: #ffffff;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #f8f9fa;
+    margin-bottom: 0;
+    padding: 0;
 }
 
 /* Header */
