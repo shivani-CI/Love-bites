@@ -2,62 +2,85 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css">
     <link rel="stylesheet" href="assets/css/blog.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Serif:400,700" rel="stylesheet">
     <title>Love Bites</title>
-    <style>
-        .footer-content {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            flex-wrap: wrap;
-            height: auto; /* Adjust height as needed */
-        }
-        .footer-section {
-            flex: 1 1 33%; /* Ensure sections are of equal width and wrap if necessary */
-            padding: 10px;
-        }
-        .footer-content h4 {
-            margin-bottom: 10px;
-        }
-        .social-links {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        .social-links li {
-            display: inline;
-            margin: 0 10px;
-        }
-        .follow-us {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        .follow-us h4 {
-            margin-right: 10px;
-        }
-    </style>
 </head>
 <body>
     <header class="lover">
-        <h1 class="love-bites">Love Bites</h1>
+            <nav class="navbar navbar-expand-lg py-4 py-lg-0 shadow">
+                <div class="container px-4">
+                    <a class="navbar-brand" href="home.html"><h1>LoveBites</h1></a>
+                    <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#top-navbar" aria-controls="navbarText" aria-expanded="false" aria-label="Top-navbar">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="top-navbar" aria-labelledby="top-navbarLabel">
+                    <!-- NavBar Content -->
+                    <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#top-navbar" aria-controls="navbarText" aria-expanded="false" aria-label="Top-navbar">
+                        <div class="d-flex justify-content-between p-3">
+                            <a class="navbar-brand" href="home.html">LoveBites</a>
+                            <i class="fa-solid fa-bars"></i>
+                        </div>
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                    <div class="navbar-nav ms-lg-auto p-4 p-lg-0">
+                        <li class="nav-item px-3 p-lg-0 py-1 p-lg-4">
+                            <a class="nav-link" href="home.html">Home</a>
+                        </li>
+                        <li class="nav-item px-3 p-lg-0 py-1 p-lg-4">
+                            <a class="nav-link" href="recipe.html">Recipes</a>
+                        </li>
+                        <li class="nav-item px-3 p-lg-0 py-1 p-lg-4">
+                            <a class="nav-link" href="blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item px-3 p-lg-0 py-1 p-lg-4">
+                            <a class="nav-link" href= "#contact">Contact Us</a> <!-- Navigation to Contact us -->
+                        </li>
+                    </div>
+                    </div>
+                </div>
+            </nav> 
     </header>
     <br>    
+    <main>
     <h1 class="about-me">Blog</h1>
+    <div class="image-container">
+        <img src="assets/images/steak.jpg" style="width: 50%" alt="Blog Image" class="blog-image">
+    </div>
+    <br><br>
+    <h2 class="about-page">About The Page</h2>
+    <p class="about-this-page">The Idea behind this Webpage is to give fun meals for anyone to create together. It is ideally, more aimed towards couples of all ages to allow them to create these meals together as a fun couples activity
+        for the evening. This Webpage offers a few recipes to make that range from short to long cook time, easy to medium difficulty and Starters, Mains and Desserts. 
+        We offer a decently sized variety of hearty meals for anyone to make fit for anyone to make
+    </p>
+    <br><br>
+    <div class="image-container">
+        <img src="assets/images/couples.jpg" alt="Couples Image" class="couples-images">
+    </div>
+    <br><br>
+    <h2 class="about-recipes">About The Recipes</h2>
+    <p class="about-the-recipes">The Recipes were chosen specifically for their simple yet elegant style, their diversity, not only in which part of the world they originate from
+        but also their tastes, look and time they take to complete as something that takes too long or doesn't look good aren't really going to be all that fun to make.
+        The Diversity helps people pick a food they may take more of an interest in the food. The Specific Recipes we chose for the Website are also the most commonly picked meals for couples on dates
+        which gives it more intimacy to make these meals together.
+    </p>
+    <br><br>
+    <div class="image-container">
+        <img src="assets/images/tomato.jpg" style="max-width: 300px; max-height: 200px;" alt="Recipe Image 1" class="recipe-image-1">
+        <img src="assets/images/cooking.jpeg" style="max-width: 300px;" alt="Kitchen Food" class="kitchen-image">
+        <img src="assets/images/chocolatestrawberries.jpg" style="max-width: 300px;" alt="Recipe Image 2" class="recipe-image-2">
+    </div>
+</main>
     <br>
     <footer>
-        <div class="footer-content">
-            <div class="footer-section">
-                <h4>Contact Us:</h4>
+        <div class="footer-container">
+            <div class="footer-section" id="contact">
+                <h2>Contact Us:</h2>
                 <div class="name-input">
                     <label for="name">Name:</label>
                     <input type="text" id="name" name="name" placeholder="Enter your name">
@@ -70,34 +93,33 @@
             </div>
             <div class="footer-section">
                 <h4>Contact:</h4>
-                <span>example@email.com</span>
-           <br><br>
-                <h4>Based In:</h4>
-                <p>United Kingdom, England</p>
+                <span>example@email.com</span><br>
+                      <h4>Based In:</h4>
+                    <p>United Kingdom, England</p>
             </div>
             <div class="footer-section follow-us">
                 <h4>Follow Us:</h4>
                 <ul class="social-links">
                     <li>
-                        <a target="_blank" href="#">
+                        <a target="_blank" href="https://www.facebook.com/" rel="noopener">
                             <i class="fa fa-facebook" aria-hidden="true"></i>
                             <span class="sr-only">Facebook</span>
                         </a>
                     </li>
                     <li>
-                        <a target="_blank" href="#">
+                        <a target="_blank" href="https://www.twitter.com/" rel="noopener">
                             <i class="fa fa-twitter" aria-hidden="true"></i>
                             <span class="sr-only">Twitter</span>
                         </a>
                     </li>
                     <li>
-                        <a target="_blank" href="#">
+                        <a target="_blank" href="https://www.Youtube.com/" rel="noopener">
                             <i class="fa fa-youtube" aria-hidden="true"></i>
                             <span class="sr-only">YouTube</span>
                         </a>
                     </li>
                     <li>
-                        <a target="_blank" href="#">
+                        <a target="_blank" href="https://www.Instagram.com/" rel="noopener">
                             <i class="fa fa-instagram" aria-hidden="true"></i>
                             <span class="sr-only">Instagram</span>
                         </a>
