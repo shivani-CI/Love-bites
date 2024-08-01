@@ -19,39 +19,37 @@
 <body>
     <!-- Header -->
     <header>
-        <nav class="navbar navbar-expand-lg py-4 py-lg-0 shadow">
-            <div class="container px-4">
-                <a class="navbar-brand" href="#">LoveBite</a>
-                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#top-navbar" aria-controls="navbarText" aria-expanded="false" aria-label="Top-navbar">
-                    <i class="fa-solid fa-bars"></i>
-                </button>
-                <div class="offcanvas offcanvas-end" tabindex="-1" id="top-navbar" aria-labelledby="top-navbarLabel">
-                <!-- NavBar Content -->
-                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#top-navbar" aria-controls="navbarText" aria-expanded="false" aria-label="Top-navbar">
-                    <div class="d-flex justify-content-between p-3">
-                        <a class="navbar-brand" href="#">LoveBite</a>
-                        <i class="fa-solid fa-bars"></i>
-                    </div>
-                    <i class="fa-solid fa-bars"></i>
-                </button>
-                <div class="navbar-nav ms-lg-auto p-4 p-lg-0">
-                    <li class="nav-item px-3 p-lg-0 py-1 p-lg-4">
-                        <a class="nav-link" href="../../home.html">Home</a>
-                    </li>
-                    <li class="nav-item px-3 p-lg-0 py-1 p-lg-4">
-                        <a class="nav-link" href="../../recipe.html">Recipes</a>
-                    </li>
-                    <li class="nav-item px-3 p-lg-0 py-1 p-lg-4">
-                        <a class="nav-link" href="../../blog.html">Blog</a>
-                    </li>
-                    <li class="nav-item px-3 p-lg-0 py-1 p-lg-4">
-                        <a class="nav-link" href="#">Contact Us</a>
-                    </li>
-                </div>
-                </div>
-            </div>
-        </nav>
-    </header>
+      <nav class="navbar navbar-expand-lg py-4 shadow">
+          <div class="container">
+              <a id="logo" class="navbar-brand" href="home.html">LoveBite</a>
+              <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#top-navbar" aria-controls="top-navbar" aria-expanded="false" aria-label="Toggle navigation">
+                  <i class="menubars fa-solid fa-bars"></i>
+              </button>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="top-navbar" aria-labelledby="top-navbarLabel">
+                  <div class="offcanvas-header">
+                      <h5 id="top-navbarLabel" class="offcanvas-title">LoveBite</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  </div>
+                  <div class="offcanvas-body">
+                      <ul class="navbar-nav">
+                          <li class="nav-item">
+                              <a class="nav-link" href="../../home.html">Home</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="../../recipe.html">Recipes</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="../../blog.html">Blog</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="#">Contact Us</a>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </nav>
+  </header>
     <!-- Main Content -->
     <main>
         <div class="recipe-page container my-5">
@@ -86,9 +84,9 @@
                     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#recipeAccordion">
                       <div class="accordion-body">
                         <ul class="list-unstyled">
-                          <li><a href="#" class="nav-link hvr-underline-from-left">Halloumi Traybake</a></li>
-                          <li><a href="#" class="nav-link hvr-underline-from-left">Steak with Red Wine Sauce</a></li>
-                          <li><a href="#" class="nav-link hvr-underline-from-left">Spaghetti Carbonara</a></li>
+                          <li><a href="../main/hallumiTraybake.html" class="nav-link hvr-underline-from-left">Halloumi Traybake</a></li>
+                          <li><a href="../main/steakRedWine.html" class="nav-link hvr-underline-from-left">Steak with Red Wine Sauce</a></li>
+                          <li><a href="../main/spaghettiCarbonara.html" class="nav-link hvr-underline-from-left">Spaghetti Carbonara</a></li>
                         </ul>
                       </div>
                     </div>
@@ -103,9 +101,9 @@
                     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#recipeAccordion">
                       <div class="accordion-body">
                         <ul class="list-unstyled">
-                          <li><a href="#" class="nav-link hvr-underline-from-left">Chocolate Brownies</a></li>
-                          <li><a href="#" class="nav-link hvr-underline-from-left">Chocolate Fondant</a></li>
-                          <li><a href="#" class="nav-link hvr-underline-from-left">Chocolate-dipped Strawberries</a></li>
+                          <li><a href="../dessert/chocolateBrownies.html" class="nav-link hvr-underline-from-left">Chocolate Brownies</a></li>
+                          <li><a href="../dessert/chocolateFondant.html" class="nav-link hvr-underline-from-left">Chocolate Fondant</a></li>
+                          <li><a href="../dessert/chocolateDippedStrawberries.html" class="nav-link hvr-underline-from-left">Chocolate-dipped Strawberries</a></li>
                         </ul>
                       </div>
                     </div>
