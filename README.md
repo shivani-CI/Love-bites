@@ -162,6 +162,15 @@ https://shivani-ci.github.io/Love-bites/home.html
 
 
 
+## Future features
+
+- Giving users ability to save their favourite recipes
+- Showing featured recipe on home page
+- Getting feedback and review from users
+- Providing more recipes ideas for Date nights
+
+
+
 
 
 
