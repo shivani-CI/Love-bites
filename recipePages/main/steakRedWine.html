@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoveBite Recipes</title>
+
+    <!-- BootStrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <!-- Google Font (Georgia)-->
+    <link href="https://fonts.googleapis.com/css2?family=Georgia&family=Times+New+Roman&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../../assets/css/recipePage.css">
+    <!-- Font Awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar navbar-expand-lg py-4 py-lg-0 shadow">
+            <div class="container px-4">
+                <a class="navbar-brand" href="#">LoveBite</a>
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#top-navbar" aria-controls="navbarText" aria-expanded="false" aria-label="Top-navbar">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="top-navbar" aria-labelledby="top-navbarLabel">
+                <!-- NavBar Content -->
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#top-navbar" aria-controls="navbarText" aria-expanded="false" aria-label="Top-navbar">
+                    <div class="d-flex justify-content-between p-3">
+                        <a class="navbar-brand" href="#">LoveBite</a>
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <div class="navbar-nav ms-lg-auto p-4 p-lg-0">
+                    <li class="nav-item px-3 p-lg-0 py-1 p-lg-4">
+                        <a class="nav-link" href="../../home.html">Home</a>
+                    </li>
+                    <li class="nav-item px-3 p-lg-0 py-1 p-lg-4">
+                        <a class="nav-link" href="../../recipe.html">Recipes</a>
+                    </li>
+                    <li class="nav-item px-3 p-lg-0 py-1 p-lg-4">
+                        <a class="nav-link" href="../../blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item px-3 p-lg-0 py-1 p-lg-4">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Main Content -->
+    <main>
+        <div class="recipe-page container my-5">
+            <div class="row">
+              <!-- Sidebar Section -->
+              <div class="side-bar col-lg-4 mb-4">
+                <div class="accordion" id="recipeAccordion">
+                  <!-- Starters -->
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                        Starters
+                      </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#recipeAccordion">
+                      <div class="accordion-body">
+                        <ul class="list-unstyled">
+                          <li><a href="../starter/tomatoBrushetta.html" class="nav-link hvr-underline-from-left">Tomato Bruschetta</a></li>
+                          <li><a href="../starter/garlicPrawn.html" class="nav-link hvr-underline-from-left">Garlic Shrimp</a></li>
+                          <li><a href="../starter/aranchini.html" class="nav-link hvr-underline-from-left">Aranchini</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Mains -->
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Mains
+                      </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#recipeAccordion">
+                      <div class="accordion-body">
+                        <ul class="list-unstyled">
+                          <li><a href="hallumiTraybake.html" class="nav-link hvr-underline-from-left">Halloumi Traybake</a></li>
+                          <li><a href="steakRedWine.html" class="nav-link hvr-underline-from-left">Steak with Red Wine Sauce</a></li>
+                          <li><a href="#" class="nav-link hvr-underline-from-left">Spaghetti Carbonara</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Desserts -->
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Desserts
+                      </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#recipeAccordion">
+                      <div class="accordion-body">
+                        <ul class="list-unstyled">
+                          <li><a href="#" class="nav-link hvr-underline-from-left">Chocolate Brownies</a></li>
+                          <li><a href="#" class="nav-link hvr-underline-from-left">Chocolate Fondant</a></li>
+                          <li><a href="#" class="nav-link hvr-underline-from-left">Chocolate-dipped Strawberries</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+              <!-- Recipe Details Section -->
+              <div class="col-lg-8">
+                <div class="shadow-box p-4 mb-4 rounded-4">
+                  <h2 class="recipe-title mb-3">Steak with Red Wine Sauce</h2>
+                  <img src="../../assets/images/recipe-image/steak-red-wine.jpg" id="vertical-recipe-img" class="mb-4 rounded-4"alt="Steak with Red Wine Sauce">
+                  <div class="d-flex justify-content-between mb-3 rating-time">
+                    <div class="d-flex flex-column align-items-center">
+                        <p><strong>Raiting:</strong>
+                            <i class="fa-solid fa-star colored-star"></i>
+                            <i class="fa-solid fa-star colored-star"></i>
+                            <i class="fa-solid fa-star colored-star"></i>
+                            <i class="fa-solid fa-star colored-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </p>
+                    </div>
+                    <div class="d-flex flex-column align-items-center">
+                      <strong>Prep Time:</strong>
+                      <span>10 mins</span>
+                    </div>
+                    <div class="d-flex flex-column align-items-center">
+                      <strong>Cook Time:</strong>
+                      <span>20 mins</span>
+                    </div>
+                  </div>
+                  <div class="container my-3">
+                    <section class="nutrition-facts">
+                        <h3 class="mb-4 text-center fw-bold">Nutrition</h3>
+                        <div class="nutrition-box">
+                            <div class="nutrition-item">
+                                <span class="nutrition-label">Calories</span>
+                                <span class="nutrition-value">535 kcal</span>
+                            </div>
+                            <div class="nutrition-item">
+                                <span class="nutrition-label">Fat</span>
+                                <span class="nutrition-value">34g</span>
+                            </div>
+                            <div class="nutrition-item">
+                                <span class="nutrition-label">Fibre</span>
+                                <span class="nutrition-value">3g</span>
+                            </div>
+                            <div class="nutrition-item">
+                                <span class="nutrition-label">Protein</span>
+                                <span class="nutrition-value">30g</span>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+      
+                  <!-- Ingredients and Methods Row -->
+                  <div class="row">
+                    <!-- Ingredients Section -->
+                    <div class="col-md-6 ingredients-section p-3 mb-4 rounded">
+                      <h3>Ingredients</h3>
+                      <ul>
+                        <li>2 steaks, 1 to 2 inches thick</li>
+                        <li>Kosher salt</li>
+                        <li>Extra virgin olive oil or canola oil</li>
+                        <li>3 to 4 tablespoons unsalted butter, divided</li>
+                        <li>2 cups full bodied, dry red wine</li>
+                        <li>Black pepper, to taste</li>
+                      </ul>
+                    </div>
+                    <!-- Methods Section -->
+                    <div class="col-md-6 methods-section p-3 mb-4 rounded">
+                      <h3>Methods</h3>
+                      <ol>
+                        <li>Remove Tough Parts: Trim away any tough or gristly sections of the steaks. If there's a 
+                            chain attached that you prefer not to serve, remove it and reserve it for another dish.</li>
+                        <li>Bring the Steaks to Room Temperature:
+                            Rest Before Cooking: Allow the steaks to sit at room temperature for 30 to 90 minutes, depending on their 
+                            thickness. This ensures even cooking. Before cooking, pat the steaks dry with paper towels, brush with oil, and sprinkle with salt.</li>
+                        <li>Add 2 tablespoons of oil to a cast iron pan and heat it on high for about 1 minute. Swirl the oil around to evenly coat the bottom of the pan.
+                            Put the steaks into the hot pan, then lower the heat to medium or medium-high, depending on your stove. 
+                            Let the steaks sear without moving them for 3 to 6 minutes, depending on thickness.</li>
+                        <li>Turn the steaks and cook for 2 to 5 more minutes. Check doneness with a meat thermometer (120°F for rare, 130°F for medium rare, 140°F for medium) or use the finger test.</li>
+                        <li>Remove the steaks, cover with foil, and let them rest while you make the sauce.</li>
+                        <li>Make the Red Wine Sauce: Pour wine into the pan and boil over high heat until reduced by three-quarters (about 10 minutes). Add the resting steak 
+                            juices. Turn off the heat once the wine stops bubbling. Add butter gradually, one tablespoon at a time, and swirl until melted.Season with salt. 
+                            Serve the sauce with the steak, topping with freshly ground black pepper</li>
+                      </ol>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>Follow us on social media:</p>
+            <div class="social-icons">
+                <a href="https://twitter.com">
+                    <i class="fa-brands fa-x-twitter icon"></i>
+                </a>
+                <a href="https://facebook.com">
+                    <i class="fa-brands fa-facebook icon"></i>
+                </a>
+                <a href="https://instagram.com">
+                    <i class="fa-brands fa-instagram icon"></i>
+                </a>
+                <a href="https://youtube.com">
+                    <i class="fa-brands fa-youtube icon"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
