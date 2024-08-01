@@ -1,148 +1,155 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Love Bites - Romantic Dining Website
 
-Welcome Shivani Seth,
+Love Bites is a romantic food website designed to celebrate the elegance and timeless beauty of romantic dining. This site offers enchanting recipes, date night ideas, and to empower home cooks of all levels to create delicious, wholesome meals with ease and confidence.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **June 18, 2024**
+## Wireframes 
 
-## Gitpod Reminders
+### Home page
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
-
-### Connecting your Mongo database
-
-- **Connect to Mongo CLI on a IDE**
-- navigate to your MongoDB Clusters Sandbox
-- click **"Connect"** button
-- select **"Connect with the MongoDB shell"**
-- select **"I have the mongo shell installed"**
-- choose **mongosh (2.0 or later)** for : **"Select your mongo shell version"**
-- choose option: **"Run your connection string in your command line"**
-- in the terminal, paste the copied code `mongo "mongodb+srv://<CLUSTER-NAME>.mongodb.net/<DBname>" --apiVersion 1 --username <USERNAME>`
-  - replace all `<angle-bracket>` keys with your own data
-- enter password _(will not echo **\*\*\*\*** on screen)_
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**June 18, 2024,** Add Mongo back into template
-
-**June 14, 2024,** Temporarily remove Mongo until the key issue is resolved
-
-**May 28 2024:** Fix Mongo and Links installs
-
-**April 26 2024:** Update node version to 16
-
-**September 20 2023:** Update Python version to 3.9.17.
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
-
-# Shivani's test commit
-Wireframe for Home Page:
 ![image](https://github.com/user-attachments/assets/f3b6ef72-958a-40ce-8273-bde81e140fba)
 ![image](https://github.com/user-attachments/assets/da6cf0e2-d751-41a5-8566-bafe019135c0)
 ![image](https://github.com/user-attachments/assets/57d6c1e9-6b12-4df0-8cbe-9190504706d8)
 
-Wireframe for Recipe Sections:
+
+
+### Recipe page
+
 ![image](https://github.com/user-attachments/assets/139f011b-8885-47c0-9ccf-a2899b360a15)
 ![image](https://github.com/user-attachments/assets/756e23c9-351b-4946-83d7-d08bd5709609)
 ![image](https://github.com/user-attachments/assets/367a8f1e-973c-4d81-9e11-ba10e925db79)
 ![image](https://github.com/user-attachments/assets/ac46580f-f74a-406c-a6dc-38052c4a9c9e)
 ![image](https://github.com/user-attachments/assets/cf3edfad-399f-4c41-b9d8-272799362d41)
 ![image](https://github.com/user-attachments/assets/1bf0e10e-5f65-4b1f-8c52-3ce48a692fb4)
+
+
+
+
+## Table of Contents
+
+- Project overview
+- List of features
+- UX/UI
+- Testing
+- Deployment
+- Citation of ALL sources(code, 
+images, text)
+- Future features 
+
+  
+
+## Project Overview
+
+At Love Bites, we celebrate the elegance and timeless beauty of romantic dining. Our mission is to bring you the most enchanting recipes and date night ideas inspired by everlasting love. 
+
+## Features
+
+- **Hero Section**: Full-screen background image with an overlay for text readability.
+- **Responsive Design**: Ensures the website looks great on all devices.
+- **Recipes**: Collection of recipes perfect for creating timeless memories.
+- **Blog**: Inspiring ideas, comments and information on recipes.
+- **Contact Us**: Form for users to contact us.
+- **Newsletter Signup**: Form for users to subscribe to updates.
+
+## UX/UI
+
+### Pages
+
+1. **Landing Page (home.html)**
+   - Welcome message
+   - Call-to-action button
+   - Sections: About, Our Story, Newsletter and Feature section 
+
+   - Landing page image
+
+    ![image](https://github.com/user-attachments/assets/125f2e0a-b2c4-41ef-8632-40f126631560)
+
+
+
+
+   - Navigation bar
+
+   ![image](https://github.com/user-attachments/assets/eba84504-d890-45d2-8aa9-95255e55568b)
+
+
+
+
+   - Feature section
+
+   !![image](https://github.com/user-attachments/assets/53a1934a-0d2b-4ac9-b270-003a95e0af69)
+
+
+
+
+
+   - Newsletter section
+
+    ![image](https://github.com/user-attachments/assets/fd59d824-ad68-415e-b0b5-ba7816e655b6)
+
+
+
+
+
+
+   - Footer 
+
+    ![image](https://github.com/user-attachments/assets/4551e721-9069-4b02-a040-84b263fa7e12)
+
+
+
+
+
+
+2. **Recipes Page (recipes.html)**
+   - Featured Recipes with images and descriptions
+  
+     - Starters
+
+      ![image](https://github.com/user-attachments/assets/7c918154-8b16-4984-9eb2-d9dbb0101709)
+
+
+
+     - Main
+    
+      ![image](https://github.com/user-attachments/assets/e7420c35-21ed-482d-9968-ed14c220311e)
+
+
+
+     - Dessert
+
+      ![image](https://github.com/user-attachments/assets/4a35df95-2021-453a-a87b-db11a9272c19)
+
+    
+
+     
+
+4. **Date Night Ideas Page (date-ideas.html)**
+   - Elegant Dinner
+   - Moonlit Stroll
+   - Chateau Visit
+
+5. **Testimonials Page (testimonials.html)**
+   - Jane & John's Story
+   - Emily & Michael's Story
+   - Lisa & Mark's Story
+
+6. **Newsletter Page (newsletter.html)**
+   - Newsletter subscription form
+
+7. **Individual Recipe Page (recipe1.html, recipe2.html, etc.)**
+   - Recipe title
+   - Ingredients
+   - Instructions
+
+Wireframe for Home Page:
+
+
+Wireframe for Recipe Sections:
+
+
+
+
+
 
 
 
