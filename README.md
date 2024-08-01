@@ -23,6 +23,7 @@ Love Bites is a romantic food website designed to celebrate the elegance and tim
 ![image](https://github.com/user-attachments/assets/ac46580f-f74a-406c-a6dc-38052c4a9c9e)
 ![image](https://github.com/user-attachments/assets/cf3edfad-399f-4c41-b9d8-272799362d41)
 ![image](https://github.com/user-attachments/assets/1bf0e10e-5f65-4b1f-8c52-3ce48a692fb4)
+![2024-08-01 (4)](https://github.com/user-attachments/assets/41e90d9c-7246-4067-97ed-86907a5c0b7a)
 
 
 ## Table of Contents
