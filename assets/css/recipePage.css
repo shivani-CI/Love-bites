@@ -1,7 +1,13 @@
 /* General Body Styling */
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #f8f9fa;
+}
+
+.recipe-title{
+    color:#ab3326;
+    font-size: 2rem;
+    font-weight: bold;
 }
 
 /* Nutrition Facts Section */
@@ -10,6 +16,10 @@ body {
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.colored-star{
+    color: #ffd27d;
 }
 
 /* Nutrition Box Styling */
@@ -53,6 +63,18 @@ body {
     color: #ff6f61;
     font-weight: bold;
     font-size: 1em;
+}
+
+
+/* Ingrident Section */
+.ingredients-section{
+    background-color: rgb(198, 156, 101, 0.4);
+}
+
+.ingredients-section > h3,
+.methods-section > h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
 /* Responsive Design */
