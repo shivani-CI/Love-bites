@@ -20,38 +20,25 @@
 <body>
     <!-- Header -->
     <header>
-        <nav class="navbar navbar-expand-lg py-4 py-lg-0 shadow">
-            <div class="container px-4">
-                <a class="navbar-brand" href="#">LoveBite</a>
-                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#top-navbar" aria-controls="navbarText" aria-expanded="false" aria-label="Top-navbar">
-                    <i class="fa-solid fa-bars"></i>
-                </button>
-                <div class="offcanvas offcanvas-end" tabindex="-1" id="top-navbar" aria-labelledby="top-navbarLabel">
-                <!-- NavBar Content -->
-                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#top-navbar" aria-controls="navbarText" aria-expanded="false" aria-label="Top-navbar">
-                    <div class="d-flex justify-content-between p-3">
-                        <a class="navbar-brand" href="#">LoveBite</a>
-                        <i class="fa-solid fa-bars"></i>
-                    </div>
-                    <i class="fa-solid fa-bars"></i>
-                </button>
-                <div class="navbar-nav ms-lg-auto p-4 p-lg-0">
-                    <li class="nav-item px-3 p-lg-0 py-1 p-lg-4">
-                        <a class="nav-link" href="../../home.html">Home</a>
-                    </li>
-                    <li class="nav-item px-3 p-lg-0 py-1 p-lg-4">
-                        <a class="nav-link" href="../../recipe.html">Recipes</a>
-                    </li>
-                    <li class="nav-item px-3 p-lg-0 py-1 p-lg-4">
-                        <a class="nav-link" href="../../blog.html">Blog</a>
-                    </li>
-                    <li class="nav-item px-3 p-lg-0 py-1 p-lg-4">
-                        <a class="nav-link" href="#">Contact Us</a>
-                    </li>
-                </div>
-                </div>
-            </div>
-        </nav>
+        <!-- Navbar -->
+        <div class="row no-gutters">
+          <div class="col">
+              <ul id="nav" class="list-inline menucontainer" style="padding: 0; margin: 0;">
+                  <li class="col-6 col-sm-3 list-inline-item ui-menu-color-home menuitem" style="padding: 0; margin: 0;">
+                      <a href="index.html" class="hvr-sweep-to-bottom"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
+                  </li>                            
+                  <li class="col-6 col-sm-3 list-inline-item ui-menu-color-recipe menuitem" style="padding: 0; margin: 0;">
+                      <a href="recipe.html" class="hvr-sweep-to-bottom"><i class="fa fa-utensils" aria-hidden="true"></i><span>Recipes</span></a>
+                  </li>
+                  <li class="col-6 col-sm-3 list-inline-item ui-menu-color-blog menuitem" style="padding: 0; margin: 0;">
+                      <a href="blog.html" class="hvr-sweep-to-bottom"><i class="fa fa-blog" aria-hidden="true"></i><span>Blog</span></a>
+                  </li>
+                  <li class="col-6 col-sm-3 list-inline-item ui-menu-color-contact menuitem" style="padding: 0; margin: 0;">
+                      <a href="blog.html" target="_blank" class="hvr-sweep-to-bottom"><i class="fa fa-comment" aria-hidden="true"></i><span>Contact Us</span></a>
+                  </li>                  
+              </ul>
+          </div>
+      </div>    
     </header>
     <!-- Main Content -->
     <main>

@@ -5,44 +5,72 @@ header {
     background-color: #ab3326;
 }
 
-.navbar-brand{
-    color: #fff;
-    font-size: 2rem !important;
-    font-weight: bold;
-}
-
-.navbar-nav {
-    margin-left: auto;
-}
-
-.nav-item {
-    margin-left: 4rem;
-    height: 100%;
-}
-
-.nav-link {
-    display: block; /* Make links fill the nav item container */
-    padding: 0.5rem 1rem; /* Add padding for better spacing */
-    font-size: 1rem;
-    transition: color 0.3s, background-color 0.3s;
-    border-radius: 5px;
-    height: 100%;
-    color: #ffffff;
-}
-
-
-nav .navbar-nav li a{
-    color: #ffffff !important;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bold;    
-    font-size: 1rem;
-}
-
-.nav-link:hover {
-    color: #fff;
+/* Navbar */
+.ui-menu-color-home {
     background-color: #c69c65;
 }
 
+.ui-menu-color-recipe {
+    background-color: #ab3326;
+}
+
+.ui-menu-color-blog {
+    background-color: #c69c65;
+}
+
+.ui-menu-color-contact {
+    background-color: #ab3326;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menucontainer {
+    font-size: 0;
+}
+
+#nav li {
+    font-size: 14px;
+    padding: 0;
+}
+
+#nav {
+    margin: 0;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+    height: 120px;
+}
+
+.menuitem a i {
+    padding-top: 22px;
+    display: block;
+    color: #fafafa;
+    font-size: 26px;
+    text-align: center;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
+} 
+
+/* Hover.css */
+
+.hvr-sweep-to-bottom:before {
+    background: rgba(0, 0, 0, 0.2);
+    height: 120px;
+} 
 
 
 /* ----------------Recipe Card */
